@@ -1,0 +1,104 @@
+.row{
+	padding: 0;
+	margin:0;
+}
+
+.login-content{
+	background-color: white;
+	width: 500px;
+	border-radius: 7px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.avatar{
+	position: absolute;
+	top: 34px;
+	left: 165px;
+}
+
+#login-tag{
+	text-align: center;
+	margin: 75px 0 30px 0;
+	font-size: 25px;
+}
+
+.login-form{
+	padding: 0 20px;
+}
+
+#link{
+	margin-top: 20px; 
+}
+
+.format-custom{
+	color: green;
+	font-size: 15px;
+}
+
+.format-custom:hover{
+	text-decoration: none;
+	color: #9F00F2;
+
+}
+
+#login-cancel-button{
+	background-color: #afaeae;
+	border-color: #8f8e8e;
+}
+
+.login-form-input{
+	position: relative;
+}
+
+.icon{
+	position: absolute;
+	top:18px;
+	left:10px;
+	font-size: 25px;
+}
+
+.login-form-input input[type="text"], .login-form-input input[type="password"]{
+	padding-left: 45px;
+}
+
+#login-submit-button{
+	background: url("../img/images/login/login_button_background.png");
+	width: 190px;
+	height: 56px;
+	border: none;
+}
+
+#login-cancel-button{
+	background: url("../img/images/login/cancel_button_background.png");
+	width: 190px;
+	height: 56px;
+	border: none;
+}
+
+#remember-password{
+	float: left;
+	position: relative;
+}
+
+#remember-password-input{
+	width: 20px;
+	height: 20px;
+}
+
+#remember-password label{
+	position: absolute;
+	top: 3px;
+	left: 30px;
+	width: 100px;
+	font-size: 15px;
+}
+
+#forget-password{
+	float: right;
+}
+
+#create-account-row{
+	margin-top: 10px;
+	text-align: center;
+}

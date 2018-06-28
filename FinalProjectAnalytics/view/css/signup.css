@@ -1,0 +1,137 @@
+.row{
+	padding: 0;
+	margin:0;
+}
+
+form{
+	margin: 0;
+}
+
+
+.signup-content{
+	background-color: white;
+	border-radius: 7px;
+	width: 1200px;
+	height: 700px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.signup-left-form{
+	margin: 10px;
+}
+
+.signup-right-form{
+	height: 700px;
+	margin: 10px;
+}
+
+.avatar{
+	position: absolute;
+	top: 35px;
+	left: 215px;
+}
+
+#signup-tag{
+	text-align: center;
+	margin: 220px 0 30px 0;
+	font-size: 25px;
+}
+
+.signup-form{
+	padding: 0 20px;
+}
+
+#link{
+	margin-top: 20px; 
+}
+
+.format-custom{
+	color: green;
+	font-size: 15px;
+}
+
+.format-custom:hover{
+	text-decoration: none;
+	color: #9F00F2;
+
+}
+
+#signup-cancel-button{
+	background-color: #afaeae;
+	border-color: #8f8e8e;
+}
+
+.signup-form-input{
+	position: relative;
+}
+
+.icon{
+	position: absolute;
+	top:18px;
+	left:10px;
+	font-size: 25px;
+}
+
+.signup-form-input input[type="text"], .signup-form-input input[type="password"]{
+	padding-left: 45px;
+}
+
+#signup-submit-button{
+	background: url("../img/images/signup/signup_button_background.png");
+	width: 190px;
+	height: 55px;
+	border: none;
+}
+
+#signup-cancel-button{
+	background: url("../img/images/signup/cancel_button_background.png");
+	width: 190px;
+	height: 55px;
+	border: none;
+}
+
+#remember-password{
+	float: left;
+	position: relative;
+}
+
+#remember-password-input{
+	width: 20px;
+	height: 20px;
+}
+
+#remember-password label{
+	position: absolute;
+	top: 3px;
+	left: 30px;
+	width: 100px;
+	font-size: 15px;
+}
+
+#forget-password{
+	float: right;
+}
+
+#create-account-row{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.signup-left{
+	background: url("../img/images/signup/signup_left_background.png") no-repeat;
+	width: 600px;
+	height: 700px;
+}
+
+#signup-right-title{
+	margin: 30px 0 40px 150px;
+}
+
+.signup-button{
+	padding: 10px 0 0 35px;
+}
+
+#signup-submit-button{
+	margin-right: 40px;
+}

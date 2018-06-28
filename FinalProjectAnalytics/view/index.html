@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trang chủ - Bến xe miền Đông</title>
+
+	<!--CSS-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/footer-distributed-with-address-and-phones.css">
+	<link rel="stylesheet" href="css/bootstrap-3.1.1-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">
+				<img id="nav_logo" src="img/images/nav_logo.png" alt="nav_logo"/>
+			</a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+    	<div class="collapse navbar-collapse" id="navbar-collapse">
+		<div class="nav navbar-nav navbar-right">
+			<div class="line above-bar">
+				<form method="POST" action="#" id="search-area" class="inline">
+					<input id="txtSearch" type="text" name="txtSearch" placeholder="Nhập thông tin cần tìm kiếm">
+					<input id="btnSearch" type="submit" name="btnSearch" value=""> 
+				</form>
+				<div class="inline basket">
+					<span id="basket-text">Giỏ hàng</span>
+					<span id="amount-in-basket">1</span>
+				</div>
+				<div class="inline account">
+					<a href="">
+						<img class="avatar-account inline" src="img/images/avatar.png"/>
+						<div class="account-info inline">
+							<span class="name-account line">Tên tài khoản</span>
+							<span class="type-account line">Loại tài khoản</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="line under-bar">
+				<ul>
+					<li class="inline"><a href="#" class="active">Trang chủ</a></li>
+					<li class="inline"><a href="#">Giới thiệu</a></li>
+					<li class="inline"><a href="#">Khuyến mãi</a></li>
+					<li class="inline"><a href="#">Liên hệ</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</nav>
+
+	<article class="content">
+		<div class="row slider">
+			<div class="siderbar-menu col-md-3">
+				<ul>
+					<li><a href="#">Tuyến xe khách</a></li>
+					<li><a href="#">Nhà xe</a></li>
+					<li><a href="#">Địa điểm</a></li>
+					<li><a href="#">Đặt vé</a></li>
+				</ul>
+			</div>
+			<!-- carousel -->
+			<div  id="carousel" class="carousel slide col-md-9" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel" data-slide-to="1"></li>
+					<li data-target="#carousel" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">    
+					<div class="item active">
+						<img src="img/panel_quocphu.png">
+					</div>
+					<div class="item">
+						<img src="img/panel_quocphu.png">
+					</div>
+					<div class="item">
+						<img src="img/panel_quocphu.png">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#carousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row route">
+				<img class="row title img-responsive" src="img/images/title_route.png">
+				<div class="row route-content">
+					<!-- Swiper -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/route.png"></div>
+					<div class="swiper-slide"><img src="img/route.png"></div>
+					<div class="swiper-slide"><img src="img/route.png"></div>
+					<div class="swiper-slide"><img src="img/route.png"></div>
+					<div class="swiper-slide"><img src="img/route.png"></div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+				</div>
+			</div>
+			<div class="row car-manufacturer">
+				<img class="row title img-responsive" src="img/images/title_car.png">
+				<div class="row car-manufacturer-content">
+					<div class="row">
+						<div class="car-manufacturer-item col-md-5 col-sm-10 col-xs-10">						
+							<div class="car-manufacturer-text-content">
+								<div class="evaluate">
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_unactive.png"/>
+								</div>
+								<div class="clear"></div>
+								<p class="line car-manufacturer-name">Tên hãng xe khách</p>
+								<p class="line car-manufacturer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error debitis impedit quo sint aspernatur, culpa deserunt, odio magnam accusantium sed repudiandae molestias illum...</p>
+								<form>
+									<input class="car-manufacturer-button" type="submit" name="btnSeeMore" value="">
+								</form>
+							</div>
+						</div>
+						<div class="car-manufacturer-item col-md-5 col-sm-10 col-xs-10">						
+							<div class="car-manufacturer-text-content">
+								<div class="evaluate">
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_unactive.png"/>
+								</div>
+								<div class="clear"></div>
+								<p class="line car-manufacturer-name">Tên hãng xe khách</p>
+								<p class="line car-manufacturer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error debitis impedit quo sint aspernatur, culpa deserunt, odio magnam accusantium sed repudiandae molestias illum...</p>
+								<form>
+									<input class="car-manufacturer-button" type="submit" name="btnSeeMore" value="">
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="car-manufacturer-item col-md-5 col-sm-10 col-xs-10">						
+							<div class="car-manufacturer-text-content">
+								<div class="evaluate">
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_unactive.png"/>
+								</div>
+								<div class="clear"></div>
+								<p class="line car-manufacturer-name">Tên hãng xe khách</p>
+								<p class="line car-manufacturer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error debitis impedit quo sint aspernatur, culpa deserunt, odio magnam accusantium sed repudiandae molestias illum...</p>
+								<form>
+									<input class="car-manufacturer-button" type="submit" name="btnSeeMore" value="">
+								</form>
+							</div>
+						</div>
+						<div class="car-manufacturer-item col-md-5 col-sm-10 col-xs-10">						
+							<div class="car-manufacturer-text-content">
+								<div class="evaluate">
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_active.png"/>
+									<img class="star-icon" src="img/star_icon_unactive.png"/>
+								</div>
+								<div class="clear"></div>
+								<p class="line car-manufacturer-name">Tên hãng xe khách</p>
+								<p class="line car-manufacturer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error debitis impedit quo sint aspernatur, culpa deserunt, odio magnam accusantium sed repudiandae molestias illum...</p>
+								<form>
+									<input class="car-manufacturer-button" type="submit" name="btnSeeMore" value="">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row intro">
+				<img class="row title img-responsive" src="img/images/title_intro.png">
+				<div class="row">
+					<div class="intro-item col-md-3 col-sm-6 col-xs-10">
+						<img class="row intro-img img-responsive" src="img/route_icon.png">
+						<img class="row intro-icon img-responsive" src="img/images/intro_icon.png">
+						<div class="intro-item-content">
+							<p class="row intro-name">Nhiều tuyến xe lớn</p>
+							<p class="row intro-text">Bến xe Miền Đông là bến xe khách lớn nhất Thành phố Hồ Chí Minh về lượng khách vận chuyển mỗi năm và về lưu lượng xe mỗi ngày. Bến xe này là đầu mối cho tất cả các chuyến xe khách đi và đến Thành phố Hồ Chí Minh từ các tỉnh miền Bắc, miền Trung, Tây Nguyên và cả một số tuyến từ các tỉnh miền Đông Nam Bộ</p>
+						</div>
+					</div>
+					<div class="intro-item col-md-3 col-sm-6 col-xs-12">
+						<img class="row intro-img img-responsive" src="img/prestigious_icon.png">
+						<img class="row intro-icon img-responsive" src="img/images/intro_icon.png">
+						<div class="intro-item-content">
+							<p class="row intro-name">Uy tín, trách nhiệm, tận tình</p>
+							<p class="row intro-text">Qua hơn 30 năm hoạt động, Bến xe khách Miền Đông luôn đặt lợi ích phục vụ vận chuyển hành khách lên hàng đầu. Bến xe hiện là nơi lưu đậu các phương tiện vận tải hành khách cố định, tổ chức bán vé cho các hãng xe theo hợp đồng uỷ thác và tổ chức điều hành xe ra vào bến. Nhờ đó, việc đón trả khách, giờ xe xuất bến luôn được đảm bảo theo quy định.</p>
+						</div>
+					</div>
+					<div class="intro-item col-md-3 col-sm-6 col-xs-12">
+						<img class="row intro-img img-responsive" src="img/quality_icon.png">
+						<img class="row intro-icon img-responsive" src="img/images/intro_icon.png">
+						<div class="intro-item-content">
+							<p class="row intro-name">Chất lượng đảm bảo</p>
+							<p class="row intro-text">Bến xe Miền Đông -TP Hồ Chí Minh - Việt nam là một trong những bến xe lớn nhất của cả nước và đang phục vụ cho tất cả các tuyến xe trên toàn quốc. Phục vụ các tuyến xe liên tỉnh chất lượng cao, có được chứng nhận chất lượng của bộ giao thông vận tải và một số chứng nhận khu vực.</p>
+						</div>
+					</div>
+				</div>
+			</div> 
+			<div id="contact-us">
+				<img class="row title img-responsive" src="img/images/title_contactus.png">
+				<form action="#">
+					<div class="row contact-us-form">
+						<div class="col-md-6">
+							<div class="form-col">
+								<label class="form-row">Tên người dùng:</label>
+								<input class="form-row" type="text" name="user-name" placeholder="Nhập tên người dùng">
+							</div>          
+							<div class="form-col">
+								<label class="form-row">Địa chỉ email:</label>
+								<input class="form-row" type="email" name="email" placeholder="Nhập địa chỉ email">
+							</div>
+							<div class="form-col">
+								<label class="form-row">Tiêu đề:</label>
+								<input class="form-row" type="text" name="title-contact" placeholder="Nhập tiêu đề">
+							</div>
+							<div class="form-col">
+								<label class="form-row">Nội dung:</label>
+								<textarea class="form-row" id="txtContent-Contact-Us"></textarea>
+							</div>
+							<input id="contact-us-send-button" class="form-col" type="button" name="submit" value="Gửi lời nhắn">
+							<blockquote>Xin chân thành cám ơn bạn đã đóng góp ý kiến!</blockquote>
+						</div>
+						<div class="col-md-6">
+							<blockquote class="line" id="text-title">Lời cảm ơn</blockquote>
+							<blockquote>Cảm ơn quý khách đã sử dụng dịch vụ và đóng góp ý kiến cho chúng tôi. Mọi ý kiến đóng góp sẽ giúp chúng tôi cải thiện chất lượng dịch vụ tốt hơn, giúp quý khách thoải mái hơn. Chúng tôi sẽ cố gắng phản hồi một cách sớm nhất!<br/>Chúc quý khách có một chuyến đi an toàn và thoải mái. Xin chân thành cám ơn!
+							</blockquote>
+							<a href="#" class="thumbnail" id="location-in-map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9569986517076!2d106.70916201435082!3d10.814602792295616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752899e97ed571%3A0xf005860ba5f88dbf!2zQuG6v24gWGUgTWnhu4FuIMSQw7RuZw!5e0!3m2!1svi!2s!4v1527999099818" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</article>
+
+	<!-- footer -->
+	<footer class="footer-distributed">
+		<div class="footer-left">
+			<img src="img/footer_logo.png" alt="">
+			<p class="footer-links">
+				<a href="#">Trang Chủ</a>
+				·
+				<a href="#">Giới thiệu</a>
+				·
+				<a href="#">Khuyến mãi</a>
+				·
+				<a href="#">Liên hệ</a>
+			</p>
+			<p class="footer-company-name">Nhóm con chim non &copy; 2018</p>
+		</div>
+		<div class="footer-center">
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>Khu phố 6, phường Linh Trung</span>Quận Thủ Đức, Tp.Hồ Chí Minh</p>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>(08) 37251993</p>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:DHCNTT_TPHCM@gm.uit.com.vn">DHCNTT_TPHCM@gm.uit.com.vn</a></p>
+			</div>
+		</div>
+		<div class="footer-right">
+			<p class="footer-company-about">
+				<span>Thông tin về nhóm:</span>
+				<p class="group-member">Nhóm bao gồm 3 thành viên:</p>
+				<p class="group-member">15520801: Dương Văn Thanh</p>
+				<p class="group-member">15520680: Phạm Ngọc Quân</p>
+				<p class="group-member">15520693: Trần Hưng Quang</p>
+			</p>
+			<div class="footer-icons">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script language="javascript" src="js/index.js"></script>
+</html>

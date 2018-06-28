@@ -1,0 +1,92 @@
+.clear{
+	clear: both;
+}
+
+.row{
+	margin:0 -15px;
+}
+
+.col-md-9, .col-md-3{
+	padding: 0;
+}
+
+.view{
+	float: right;
+}
+
+
+/*-------------------BREADCRUMB-------------*/
+.breadcrumb{
+	background-color: transparent;
+	margin-bottom: 10px;
+}
+
+/*-----------------CONTENT------------------*/
+.main-content{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f1f1f1;
+	padding: 3px 20px;
+	margin: 20px;
+}
+
+.main-content h1{
+	color: #e01111;
+}
+
+.tab-content{
+	padding: 5px;
+}
+
+/*------------------COMMENT------------------*/
+
+#btnComment{
+	font-size: 15px;
+	margin: 0;
+	float: right;
+}
+
+/*-----------------ASIDE-BAR------------------*/
+.panel-default>.panel-heading{
+	color: black;
+	background-color: #e01111;
+	border-color: #be1111;
+	font-size: 20px;
+}
+
+.panel{
+	margin: 20px 20px 10px 0;
+}
+
+.post img{
+	margin: 0 auto;
+}
+
+.post blockquote{
+	text-align: center;
+}
+.post table tr td{
+	padding:5px;
+}
+.post table tr th{
+	padding: 0 5px 5px;
+}
+
+.signup-form-input{
+	position: relative;
+}
+
+.icon{
+	position: absolute;
+	top:18px;
+	left:10px;
+	font-size: 25px;
+}
+
+.signup-form-input input[type="text"], .signup-form-input input[type="password"]{
+	padding-left: 50px;
+}
+
+.carcollector_address_form{
+	margin-bottom: 20px;
+}

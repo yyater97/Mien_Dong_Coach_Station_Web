@@ -1,0 +1,224 @@
+.row{
+	margin:0;
+	padding:0;
+}
+
+.title{
+	margin: 30px auto;
+}
+
+.content{
+	margin: 20px;
+}
+
+.notification{
+	color: black;
+	font-size: 25px;
+	margin: 30px;
+}
+
+#amount{
+	background-color: #e01111;
+	color: white;
+	font-size: 30px;
+	padding: 0 10px;
+	border-radius: 5px;
+}
+
+/*-------------------TABLE-INFO-------------------*/
+
+.table-info{
+	margin-right: 30px; 
+	width: 1029px;
+	float: left;
+	text-align: center;	
+} 
+
+.table-info-title{
+	background: url("../img/images/basket/table_info_title.png") no-repeat;	
+	color: white;
+	font-size: 23px;
+	height: 97px;
+	font-weight: bold;
+}
+
+.table-info-title th{
+	text-align: center;
+}
+
+.table-info-row{
+	height: 110px;
+	background: url("../img/images/basket/table_info_row.png") no-repeat;	
+	border-top: 3px solid #f1f1f1;
+	font-size: 20px;
+}
+
+.ticket-code{
+	padding-left: 20px;
+	width: 15%;
+}
+
+.name-carcollector{
+	width: 15%;
+}
+
+.license-plate{
+	width:15%;
+}
+
+.route{
+	width: 25%;
+}
+
+.time-begin{
+	width: 15%;
+}
+
+
+.saleoff{
+	width: 15%;
+	padding-right: 20px;
+}
+
+
+/*----------------TABLE-PAY----------------------*/
+
+.table-pay{
+	width: 238px;
+	clear: right;
+	text-align: center;
+	font-weight: normal;
+}
+
+.table-pay-title{
+	background: url("../img/images/basket/table_pay_title.png") no-repeat;
+	color: white;
+	font-size: 23px;
+	height: 97px;
+	font-weight: bold;
+}
+
+.table-pay-title th{
+	text-align: center;
+}
+
+.table-pay-row{
+	background: url("../img/images/basket/table_pay_row.png") no-repeat;
+	height: 110px;
+	border-top: 3px solid #f1f1f1;
+	font-size: 20px;
+}
+
+.cancel{
+	padding-right: 10px;
+}
+
+#total-money-row{
+	background: url("../img/images/basket/total_money_background.png") no-repeat;
+	height: 110px;
+	border-top: 3px solid #f1f1f1;
+	font-size: 20px;
+	border-radius: 0 0 5px 5px;
+}
+
+#total-money{
+	color: #e01111;
+	text-align: center;
+	font-size: 23px;
+}
+
+/*----------------------------------INVOICE-INFO-----------------------------*/
+
+.invoice-info-content{
+	padding: 20px 10px;
+}
+
+.form-title{
+	font-size: 22px;
+	margin: 0 0 10px 0;
+}
+
+.type-invoice-form{
+	padding-left: 30px;
+}
+
+.radio-group{
+	margin-left: 50px;
+}
+
+
+
+.radio-custom {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-custom input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 5px;
+    left: -35px;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    border: 2px solid #e01111;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-custom input:checked ~ .checkmark {
+    background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-custom input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-custom .checkmark:after {
+ 	top: 3px;
+	left: 3px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #e01111;
+}
+
+.type-invoice-form .radio-group label{
+	margin-bottom: 20px;
+	padding: 5px 0;
+}
+
+#hotline{
+	color: #e01111;
+	font-size: 25px;
+}
+
+#invoice-submit-button{
+	float:right;
+	color:#e01111;
+	font-size:18px;
+	margin-right: 20px;
+}

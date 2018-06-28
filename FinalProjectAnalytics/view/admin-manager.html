@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quản lí quản trị viên - Bến xe miền Đông</title>
+
+	<!--CSS-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/footer-distributed-with-address-and-phones.css">
+	<link rel="stylesheet" href="css/bootstrap-3.1.1-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/admin-manager.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">
+				<img id="nav_logo" src="img/images/nav_logo.png" alt="nav_logo"/>
+			</a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<div class="nav navbar-nav navbar-right">
+				<div class="line above-bar">
+					<form method="POST" action="#" id="search-area" class="inline">
+						<input id="txtSearch" type="text" name="txtSearch" placeholder="Nhập thông tin cần tìm kiếm">
+						<input id="btnSearch" type="submit" name="btnSearch" value=""> 
+					</form>
+					<div class="inline basket">
+						<span id="basket-text">Giỏ hàng</span>
+						<span id="amount-in-basket">1</span>
+					</div>
+					<div class="inline account">
+						<a href="">
+							<img class="avatar-account inline" src="img/images/avatar.png"/>
+							<div class="account-info inline">
+								<span class="name-account line">Tên tài khoản</span>
+								<span class="type-account line">Loại tài khoản</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="line under-bar">
+					<ul>
+						<li class="inline"><a href="#">Trang chủ</a></li>
+						<li class="inline"><a href="#">Giới thiệu</a></li>
+						<li class="inline"><a href="#">Khuyến mãi</a></li>
+						<li class="inline"><a href="#">Liên hệ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<article class="row content container-fuild">
+		<sidebar class="sidebar col-md-3">
+			<ul>
+				<li class="active">
+					<i class="fa fa-cart-arrow-down icon" aria-hidden="true"></i>
+					<a href="#tab1" class="active">Quản lí khuyến mãi</a>
+				</li>
+				<li>
+					<i class="fa fa-credit-card icon" aria-hidden="true"></i>
+					<a href="#tab2">Quản lí hóa đơn</a>
+				</li>
+				<li>
+					<i class="fa fa-line-chart icon" aria-hidden="true"></i>
+					<a href="#tab3">Báo cáo doanh thu</a>
+				</li>
+				<li>
+					<i class="fa fa-ticket icon" aria-hidden="true"></i>
+					<a href="#tab4">Quản lí vé xe</a>
+				</li>
+				<li>
+					<i class="fa fa-commenting-o icon" aria-hidden="true"></i>
+					<a href="#tab5">Quản lí góp ý</a>
+				</li>
+				<li>
+					<i class="fa fa-address-card-o icon" aria-hidden="true"></i>
+					<a href="#tab6">Quản lí khách hàng</a>
+				</li>
+				<li>
+					<i class="fa fa-address-book-o icon" aria-hidden="true"></i>
+					<a href="#tab7">Quản lí tài khoản</a>
+				</li>
+				<li>
+					<i class="fa fa-arrows-h icon" aria-hidden="true"></i>
+					<a href="#tab8">Quản lí lịch trình</a>
+				</li>
+				<li>
+					<i class="fa fa-users icon" aria-hidden="true"></i>
+					<a href="#tab9">Quản lí nhân viên</a>
+				</li>
+				<li>
+					<i class="fa fa-car icon" aria-hidden="true"></i>
+					<a href="#tab10">Quản lí nhà xe</a>
+				</li>
+			</ul>
+		</sidebar>
+		<div class="main-content col-md-9">
+			<div id="tab1" class="tab-item">
+				<table class="table-info">
+					<tr class="table-info-title">
+						<th class="col-1">Số vé</th>
+						<th class="col-2">Số xe</th>
+						<th class="col-3">Tuyến</th>
+						<th class="col-4">Thời gian đi</th>
+						<th class="col-5">Số lượng</th>
+						<th class="col-6">Giá vé</th>
+						<th class="col-button">
+							<img class="cancel-icon line" src="img/add_icon_button.png"/>
+						</th>
+					</tr>
+					<tr class="table-info-row" id="row1">
+						<td class="col-1">25AC155</td>
+						<td class="col-2">75F91389</td>
+						<td class="col-3">Tp.Hồ Chí Minh-Huế</td>
+						<td class="col-4">12:00 24/5/2013</td>
+						<td class="col-5">2</td>
+						<td class="col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos neque, ullam doloremque eos alias ratione tenetur quod dolorum ipsa beatae esse eligendi corrupti, ad numquam inventore aspernatur nemo delectus, ea placeat, omnis aliquid necessitatibus reiciendis consequuntur at illum. Ut quibusdam molestiae rerum esse et porro, recusandae ullam accusantium, perferendis quisquam velit obcaecati nostrum suscipit ex laborum? Animi quia modi deserunt eligendi placeat accusantium ratione, fuga et similique reprehenderit numquam cupiditate quibusdam nesciunt commodi, sed temporibus veniam a! Delectus dolor est, tempora aperiam natus assumenda voluptatem, omnis debitis vitae velit. Debitis impedit perferendis, tenetur modi repellendus aspernatur temporibus illum dolorum odio.</td>
+						<td class="col-button">
+							<img class="edit-button line" src="img/edit_icon_button.png"/>
+							<img class="delete-button line" src="img/cancel_icon_red.png"/>
+						</td>
+					</tr>
+					<tr class="table-info-row" id="row2">
+						<td class="col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, voluptatum.</td>
+						<td class="col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, alias explicabo assumenda nobis. Molestias adipisci tenetur aperiam dignissimos enim, ex doloremque error.</td>
+						<td class="col-3">Tp.Hồ Chí Minh-Huế</td>
+						<td class="col-4">12:00 24/5/2013</td>
+						<td class="col-5">2</td>
+						<td class="col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos neque, ullam doloremque eos alias ratione tenetur quod dolorum ipsa beatae esse eligendi corrupti, ad numquam inventore aspernatur nemo delectus, ea placeat, omnis aliquid necessitatibus reiciendis consequuntur at illum. Ut quibusdam molestiae rerum esse et porro, recusandae ullam accusantium, perferendis quisquam velit obcaecati nostrum suscipit ex laborum? Animi quia modi deserunt eligendi placeat accusantium ratione, fuga et similique reprehenderit numquam cupiditate quibusdam nesciunt commodi, sed temporibus veniam a! Delectus dolor est, tempora aperiam natus assumenda voluptatem, omnis debitis vitae velit. Debitis impedit perferendis, tenetur modi repellendus aspernatur temporibus illum dolorum odio.</td>
+						<td class="col-button">
+							<img class="edit-button line" src="img/edit_icon_button.png"/>
+							<img class="delete-button line" src="img/cancel_icon_red.png"/>
+						</td>
+					</tr>
+				</table>
+				<div class="modal-dialog col-md-5 col-sm-6 col-xs-12">
+					<div class="row modal-content">
+						<form>
+							<div class="form-col">
+								<label>Mã nhà xe:</label>
+								<input class="col-1" type="text" name="" placeholder="Nhập số vé">
+							</div>
+							<div class="form-col">
+								<label>Tên nhà xe:</label>
+								<input class="col-2" type="text" name="" placeholder="Nhập số xe">
+							</div>
+							<div class="button-group">
+								<input type="submit" class="save-button" name="save-button" value="">
+								<input type="button" class="cancel-button" name="cancel-button" value="">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div id="tab10" class="tab-item">
+				<table class="table-info">
+					<tr class="table-info-title">
+						<th class="col-1">Mã</th>
+						<th class="col-2">Tên</th>
+						<th class="col-3">Địa chỉ</th>
+						<th class="col-4">Số điện thoại</th>
+						<th class="col-5">Email</th>
+						<th class="col-6">Số lượng xe</th>
+						<th class="col-7">Giới thiệu</th>
+						<th class="col-button">
+							<img class="add-icon line" src="img/add_icon_button.png"/>
+						</th>
+					</tr>
+					<tr class="table-info-row" id="row1">
+						<td class="col-1">25AC155</td>
+						<td class="col-2">75F91389</td>
+						<td class="col-3">Tp.Hồ Chí Minh-Huế</td>
+						<td class="col-4">12:00 24/5/2013</td>
+						<td class="col-5">2</td>
+						<td class="col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos neque, ullam doloremque eos alias ratione tenetur quod dolorum ipsa beatae esse eligendi corrupti, ad numquam inventore aspernatur nemo delectus, ea placeat, omnis aliquid necessitatibus reiciendis consequuntur at illum. Ut quibusdam molestiae rerum esse et porro, recusandae ullam accusantium, perferendis quisquam velit obcaecati nostrum suscipit ex laborum? Animi quia modi deserunt eligendi placeat accusantium ratione, fuga et similique reprehenderit numquam cupiditate quibusdam nesciunt commodi, sed temporibus veniam a! Delectus dolor est, tempora aperiam natus assumenda voluptatem, omnis debitis vitae velit. Debitis impedit perferendis, tenetur modi repellendus aspernatur temporibus illum dolorum odio.</td>
+						<td class="col-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos neque, ullam doloremque eos alias ratione tenetur quod dolorum ipsa beatae esse eligendi corrupti, ad numquam inventore aspernatur nemo delectus, ea placeat, omnis aliquid necessitatibus reiciendis consequuntur at illum. Ut quibusdam molestiae rerum esse et porro, recusandae ullam accusantium, perferendis quisquam velit obcaecati nostrum suscipit ex laborum? Animi quia modi deserunt eligendi placeat accusantium ratione, fuga et similique reprehenderit numquam cupiditate quibusdam nesciunt commodi, sed temporibus veniam a! Delectus dolor est, tempora aperiam natus assumenda voluptatem, omnis debitis vitae velit. Debitis impedit perferendis, tenetur modi repellendus aspernatur temporibus illum dolorum odio.</td>
+						<td class="col-button">
+							<img class="edit-button line" src="img/edit_icon_button.png"/>
+							<img class="delete-button line" src="img/cancel_icon_red.png"/>
+						</td>
+					</tr>
+				</table>
+				<div class="modal-dialog col-md-5 col-sm-6 col-xs-12">
+					<div class="row modal-content">
+						<form>
+							<div class="form-col col-md-6">
+							<div class="form-row">
+								<label>Mã nhà xe:</label>
+								<input class="col-1" type="text" name="" disabled="true">
+							</div>
+							<div class="form-row">
+								<label>Tên nhà xe:</label>
+								<input class="col-2" type="text" name="" placeholder="Nhập số xe">
+							</div>
+							<div class="form-row">
+								<label>Địa chỉ:</label>
+								<input class="col-3" type="text" name="" placeholder="Nhập số vé">
+							</div>
+							<div class="form-row">
+								<label>Số điện thoại:</label>
+								<input class="col-4" type="text" name="" placeholder="Nhập số vé">
+							</div>
+							<div class="form-row">
+								<label>Email:</label>
+								<input class="col-5" type="text" name="" placeholder="Nhập số vé">
+							</div>
+							</div>
+							<div class="form-col col-md-6">
+							<div class="form-row">
+								<label>Số lượng xe:</label>
+								<input class="col-6" type="text" name="" placeholder="Nhập số vé">
+							</div>
+							<div class="form-row">
+								<label>Giới thiệu:</label>
+								<textarea class="col-7" ></textarea>
+							</div>
+							<div class="button-group">
+								<input type="submit" class="save-button" name="save-button" value="">
+								<input type="button" class="cancel-button" name="cancel-button" value="">
+							</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<!-- footer -->
+	<footer class="footer-distributed">
+		<div class="footer-left">
+			<img src="img/footer_logo.png" alt="">
+			<p class="footer-links">
+				<a href="#">Trang Chủ</a>
+				·
+				<a href="#">Giới thiệu</a>
+				·
+				<a href="#">Khuyến mãi</a>
+				·
+				<a href="#">Liên hệ</a>
+			</p>
+			<p class="footer-company-name">Nhóm con chim non &copy; 2018</p>
+		</div>
+		<div class="footer-center">
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>Khu phố 6, phường Linh Trung</span>Quận Thủ Đức, Tp.Hồ Chí Minh</p>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>(08) 37251993</p>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:DHCNTT_TPHCM@gm.uit.com.vn">DHCNTT_TPHCM@gm.uit.com.vn</a></p>
+			</div>
+		</div>
+		<div class="footer-right">
+			<p class="footer-company-about">
+				<span>Thông tin về nhóm:</span>
+				<p class="group-member">Nhóm bao gồm 3 thành viên:</p>
+				<p class="group-member">15520801: Dương Văn Thanh</p>
+				<p class="group-member">15520680: Phạm Ngọc Quân</p>
+				<p class="group-member">15520693: Trần Hưng Quang</p>
+			</p>
+			<div class="footer-icons">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/admin-manager.js"></script>
+</html>
